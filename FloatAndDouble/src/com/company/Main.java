@@ -33,5 +33,11 @@ public class Main {
         System.out.println(myFloatValue);
         System.out.println(myDoubleValue);
 
+        // program to convert pounds to kilograms
+
+        double numberOfPounds = 120d;
+        double numberOfKilos = numberOfPounds * 0.45359237d;
+        System.out.println(numberOfPounds +" pounds are "+numberOfKilos +" kilos");
+
     }
 }
