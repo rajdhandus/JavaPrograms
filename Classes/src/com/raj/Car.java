@@ -41,7 +41,13 @@ public class Car {
     }
 
     public void setModel(String model) {
-        this.model = model;
+        String newModel = model.toLowerCase();
+        // validation can be enforced; OOPS lets you do that
+
+        if(newModel=="carrera")
+            this.model = model;
+        else
+            this.model = "Unknown";
     }
 
     public void setEngine(String engine) {
