@@ -33,5 +33,5 @@ public class Fish extends Animal {
         moveBackFin();
         super.move(3);
     }
-    
+
 }
