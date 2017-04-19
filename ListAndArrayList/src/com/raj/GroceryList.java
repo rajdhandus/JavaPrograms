@@ -9,6 +9,10 @@ public class GroceryList {
 
     private ArrayList<String> groceryList = new ArrayList<String>();
 
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
+    }
+
     public void addGroceryItem(String item) {
         groceryList.add(item);
     }
@@ -20,24 +24,40 @@ public class GroceryList {
         }
     }
 
-    public void modifyGroceryList(int position, String newItem) {
+    public void modifyGroceryList(String oldItem, String newItem) {
+        int position = findItem(oldItem);
+        if(position>=0) {
+            modifyGroceryList(position,newItem);
+        }
+    }
+
+    private void modifyGroceryList(int position, String newItem) {
         groceryList.set(position,newItem);
         System.out.println("Grocery item #" + (position+1) + " has been modified");
     }
 
-    public void removeGroceryItem(int position) {
+    public void removeGroceryItem(String item) {
+        int position = findItem(item);
+        if(position>=0) {
+            removeGroceryItem(position);
+        }
+    }
+
+    private void removeGroceryItem(int position) {
         groceryList.remove(position);
         System.out.println("Grocery item #" + (position+1) + " has been removed");
     }
 
-    public String findItem(String item) {
-//        boolean exists = groceryList.contains(item);
-        int position = groceryList.indexOf(item);
+    private int findItem(String item) {
+        return groceryList.indexOf(item);
+    }
 
-        if(position>=0)
-            return groceryList.get(position);
+    public boolean isPresent(String item) {
+        int index = findItem(item);
+        if(index==-1)
+            return false;
         else
-            return null;
+            return true;
     }
 
 }
