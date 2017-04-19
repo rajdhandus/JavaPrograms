@@ -11,7 +11,9 @@ public class Main {
         System.out.println("Enter 10 Integers");
         initializeArray();
         printArray();
+        System.out.println();
         resize();
+//        initializeArray();
         baseData[10] = 11;
         baseData[11] = 12;
         printArray();
@@ -19,8 +21,8 @@ public class Main {
 
     private static void resize() {
         int[] original = baseData;
-
         baseData = new int[12];
+
         for (int i=0; i< original.length;i++) {
             original[i] = baseData[i];
         }
