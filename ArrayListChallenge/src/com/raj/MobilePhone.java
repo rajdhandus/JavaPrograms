@@ -4,6 +4,13 @@ import java.util.ArrayList;
 
 /**
  * Created by rajkumarpurushothaman on 4/19/17.
+ *
+ * public vs private ?
+ * new ArrayList<Contacts>(); inside or outside constructor?
+ * getContactList() vs this.contactList?
+ * defensive programming with checks before update / delete
+ * factory method pattern for creating objects
+ * no setters for Contacts?
  */
 public class MobilePhone {
     private ArrayList<Contacts> contactList = new ArrayList<Contacts>();
@@ -52,17 +59,18 @@ public class MobilePhone {
         contactList.remove(position);
     }
 
+
+    public Contacts getContact(String name) {
+        int position = findContact(name);
+        return getContactList().get(position);
+    }
+
     public int findContact(String name) {
         for(Contacts theContact: getContactList()){
             if(theContact.getName().equals(name))
                 return getContactList().indexOf(theContact);
         }
         return -1;
-    }
-
-    public Contacts getContact(String name) {
-        int position = findContact(name);
-        return getContactList().get(position);
     }
 
     public int findContact(Contacts theContact) {
