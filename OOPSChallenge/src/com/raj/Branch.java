@@ -15,7 +15,7 @@ public class Branch {
         this.customerArrayList= new ArrayList<Customer>();
     }
 
-    public ArrayList<Customer> getCustomerArrayList() {
+    public ArrayList<Customer> getCustomers() {
         return customerArrayList;
     }
 
