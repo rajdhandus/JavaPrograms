@@ -20,18 +20,33 @@ public class Bank {
     }
 
     public boolean addCustomer(Branch theBranch, Customer theCustomer) {
-        int position = this.branchArrayList.indexOf(theBranch);
-        return this.branchArrayList.get(position).addCustomer(theCustomer);
+        if(findBranch(theBranch)!=null) {
+            return findBranch(theBranch).addCustomer(theCustomer);
+
+        }
+        return false;
     }
 
     public boolean addTransaction(Branch theBranch, Customer theCustomer, double transaction) {
-        int position = this.branchArrayList.indexOf(theBranch);
-        return this.branchArrayList.get(position).addTransaction(theCustomer,transaction);
+        if(findBranch(theBranch)!=null) {
+            return findBranch(theBranch).addTransaction(theCustomer,transaction);
+
+        }
+        return false;
     }
 
     public void printAllCustomers(Branch theBranch, boolean includeTransactions) {
-        int position = this.branchArrayList.indexOf(theBranch);
-        this.branchArrayList.get(position).printAllCustomers(includeTransactions);
+        if(findBranch(theBranch)!=null) {
+            findBranch(theBranch).printAllCustomers(includeTransactions);
+        }
+    }
+
+    public Branch findBranch(Branch theBranch) {
+        int position =  this.branchArrayList.indexOf(theBranch);
+        if(position>=0)
+            return this.branchArrayList.get(position);
+        else
+            return null;
     }
 
 }
