@@ -20,12 +20,25 @@ public class Branch {
     }
 
     public boolean addCustomer(Customer theCustomer) {
-        return this.customerArrayList.add(theCustomer);
+        if(findCustomer(theCustomer)!=null)
+            return false;
+        else
+            return this.customerArrayList.add(theCustomer);
     }
 
     public boolean addTransaction(Customer theCustomer, double transaction) {
+        if(findCustomer(theCustomer)!=null)
+            return findCustomer(theCustomer).addTransactions(transaction);
+        else
+            return false;
+    }
+
+    public Customer findCustomer(Customer theCustomer) {
         int position = this.customerArrayList.indexOf(theCustomer);
-        return this.customerArrayList.get(position).addTransactions(transaction);
+        if(position>=0)
+            return this.customerArrayList.get(position);
+        else
+            return null;
     }
 
     public void printAllCustomers(boolean includeTransactions) {
