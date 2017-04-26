@@ -27,8 +27,4 @@ public class Album {
         this.songs.add(song);
     }
 
-
-    public boolean contains(Song song) {
-        return this.songs.contains(song);
-    }
 }

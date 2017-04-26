@@ -23,24 +23,18 @@ public class PlayList {
     }
 
     public LinkedList<Song> getList() {
-        return list;
+        return this.list;
     }
 
-    public void addSongs(LinkedList<Song> list, Album mudhalvan) {
+    public void addSongs(LinkedList<Song> list) {
         ListIterator<Song> iterator = list.listIterator();
         for (Song song: list) {
-            addSong(song, mudhalvan);
+            addSong(song);
         }
     }
 
-    public boolean addSong(Song song, Album mudhalvan) {
-        if(mudhalvan.contains(song)) {
-            this.list.addLast(song);
-            return true;
-        }
-        else {
-            return false;
-        }
+    public void addSong(Song song) {
+        this.list.add(song);
     }
 
     public Song nextSong() {
@@ -64,4 +58,5 @@ public class PlayList {
     public void removeCurrentSong() {
         this.iterator.remove();
     }
+
 }
