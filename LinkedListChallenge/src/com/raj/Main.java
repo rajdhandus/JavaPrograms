@@ -6,11 +6,12 @@ import java.util.Scanner;
 public class Main {
 
     private static Scanner scanner = new Scanner(System.in);
+    private static Song currentSong;
+
 
     public static void main(String[] args) {
 
         PlayList playList;
-
 
         Album mudhalvan = new Album("Mudhalvan Movie");
 
@@ -31,6 +32,9 @@ public class Main {
         playList.addSong(song5);
         playList.addSong(song6);
 
+
+        ListIterator<Song> listIterator = playList.getList().listIterator();
+
         printInstructions();
 
 
@@ -39,7 +43,7 @@ public class Main {
 
 
 
-        while(!false) {
+        while(!quit) {
             option = scanner.nextInt();
             scanner.nextLine();
             switch(option) {
@@ -47,13 +51,13 @@ public class Main {
                     printInstructions();
                     break;
                 case 2:
-                    skipForward(playList);
+                    skipForward(playList, listIterator);
                     break;
                 case 3:
-                    skipBackward(playList);
+                    skipBackward(playList, listIterator);
                     break;
                 case 4:
-                    replayCurrent(playList);
+                    replayCurrent(playList, listIterator);
                     break;
                 case 5:
                     listAllSongs(playList);
@@ -70,18 +74,51 @@ public class Main {
         System.out.println("List of all the songs in the playlist " );
         ListIterator<Song> iterator = playList.getList().listIterator();
         while(iterator.hasNext()) {
-            System.out.println("Album: " + iterator.next().getAlbum() + " Song: " +iterator.next().getTitle());
+            Song theSong = iterator.next();
+            System.out.println("Album: " + theSong.getAlbum().getName() +
+                    " Song: " +theSong.getTitle());
         }
 
     }
-    private static void replayCurrent(PlayList playList) {
-        System.out.println("Playing song - " + playList.nextSong().getTitle() +
-                " from Album - " + playList.replayCurrentSong().getAlbum().getName());
+
+    private static void replayCurrent(PlayList playList, ListIterator<Song> listIterator) {
+        if(currentSong!=null)
+            System.out.println("Re-Playing song - " + currentSong.getTitle() +
+                    " from Album - " + currentSong.getAlbum().getName());
+        else
+            System.out.println("Not playing anything right now");
     }
-    private static void skipBackward(PlayList playList) {
-        System.out.println("Playing song - " + playList.nextSong().getTitle() +
-                " from Album - " + playList.nextSong().getAlbum().getName());
+
+    private static void skipBackward(PlayList playList, ListIterator<Song> listIterator) {
+        if(listIterator.hasPrevious()) {
+            Song previousSong = listIterator.previous();
+            if(previousSong.equals(currentSong)) {
+                if(listIterator.hasPrevious()) {
+                    Song thePrevious = listIterator.previous();
+                    System.out.println("Now playing... ");
+                    System.out.println("Name : " + thePrevious.getTitle());
+                    System.out.println("Album : " + thePrevious.getAlbum().getName());
+                    currentSong = thePrevious;
+                }
+                else {
+                    currentSong = null;
+                    System.out.println("There is NO previous song!");
+                }
+            }
+            else {
+                System.out.println("Now playing... ");
+                System.out.println("Name : " + previousSong.getTitle());
+                System.out.println("Album : " + previousSong.getAlbum().getName());
+                currentSong = previousSong;
+            }
+        }
+        else {
+            currentSong = null;
+            System.out.println("There is No previous song!");
+
+        }
     }
+
     private static void printInstructions() {
         System.out.println("Choose your option:");
         System.out.println("Press 1 to - Instructions");
@@ -91,12 +128,33 @@ public class Main {
         System.out.println("Press 5 to - List all the songs in playlist");
         System.out.println("Press 6 to - Quit the application");
     }
-    private static void skipForward(PlayList playList) {
-
-        Song nextSong = playList.nextSong();
-        System.out.println("Playing song - " + nextSong.toString());
-        System.out.println(" from Album - " + playList.nextSong().getAlbum().getName());
+    private static void skipForward(PlayList playList, ListIterator<Song> listIterator) {
+        if(listIterator.hasNext()) {
+            Song nextSong = listIterator.next();
+            if(nextSong.equals(currentSong)) {
+                if(listIterator.hasNext()) {
+                    Song theVeryNext = listIterator.next();
+                    System.out.println("Now playing... ");
+                    System.out.println("Name : " + theVeryNext.getTitle());
+                    System.out.println("Album : " + theVeryNext.getAlbum().getName());
+                    currentSong = theVeryNext;
+                }
+                else{
+                    currentSong = null;
+                    System.out.println("There is NO next song!");
+                }
+            }
+            else {
+                System.out.println("Now playing... ");
+                System.out.println("Name : " + nextSong.getTitle());
+                System.out.println("Album : " + nextSong.getAlbum().getName());
+                currentSong = nextSong;
+            }
+        }
+        else {
+            currentSong = null;
+            System.out.println("There is NO next song!");
+        }
     }
-
 
 }

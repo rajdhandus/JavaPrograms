@@ -26,4 +26,14 @@ public class Song {
         return duration;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        boolean result = false;
+        if(obj instanceof Song) {
+            Song that = (Song) obj;
+            result = (that.getTitle().equals(this.title)) && (that.getDuration() == (this.duration)
+                    && that.getAlbum().getName().equals(this.getAlbum().getName()));
+        }
+        return result;
+    }
 }

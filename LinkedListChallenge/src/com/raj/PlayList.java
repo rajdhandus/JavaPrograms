@@ -10,12 +10,10 @@ public class PlayList {
 
     private String name;
     private LinkedList<Song> list;
-    private ListIterator<Song> iterator;
 
     public PlayList(String name) {
         this.name = name;
         this.list = new LinkedList<Song>();
-        this.iterator = this.list.listIterator();
     }
 
     public String getName() {
@@ -37,26 +35,8 @@ public class PlayList {
         this.list.add(song);
     }
 
-    public Song nextSong() {
-        if(this.iterator.hasNext())
-            return this.iterator.next();
-        else
-            return null;
-    }
-
-    public Song previousSong() {
-        if(this.iterator.hasPrevious())
-            return this.iterator.previous();
-        else
-            return null;
-    }
-
-    public Song replayCurrentSong() {
-        return this.iterator.previous();
-    }
-
-    public void removeCurrentSong() {
-        this.iterator.remove();
+    public void removeSong(Song song) {
+        this.list.remove(song);
     }
 
 }
