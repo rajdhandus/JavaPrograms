@@ -8,7 +8,6 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static Song currentSong;
 
-
     public static void main(String[] args) {
 
         PlayList playList;
@@ -62,7 +61,7 @@ public class Main {
                 case 5:
                     listAllSongs(playList);
                     break;
-                case 6:
+                default:
                     quit = true;
                     break;
             }
@@ -80,7 +79,6 @@ public class Main {
         }
 
     }
-
     private static void replayCurrent(PlayList playList, ListIterator<Song> listIterator) {
         if(currentSong!=null)
             System.out.println("Re-Playing song - " + currentSong.getTitle() +
@@ -88,7 +86,6 @@ public class Main {
         else
             System.out.println("Not playing anything right now");
     }
-
     private static void skipBackward(PlayList playList, ListIterator<Song> listIterator) {
         if(listIterator.hasPrevious()) {
             Song previousSong = listIterator.previous();
@@ -118,7 +115,6 @@ public class Main {
 
         }
     }
-
     private static void printInstructions() {
         System.out.println("Choose your option:");
         System.out.println("Press 1 to - Instructions");
