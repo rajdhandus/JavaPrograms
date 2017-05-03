@@ -9,6 +9,7 @@ public class Gearbox {
     private ArrayList<Gear> gears;
     private int maxGears;
     private int currentGear;
+    private boolean clutchIsIn;
 
     public Gearbox(int maxGears) {
         this.maxGears = maxGears;
@@ -17,7 +18,31 @@ public class Gearbox {
         this.gears.add(neutral);
     }
 
-    public class Gear {
+    public void operateClutch(boolean in) {
+        this.clutchIsIn = in;
+    }
+
+    public void addGear(int number, double ratio) {
+        if(number>0 && number<this.maxGears)
+            this.gears.add(new Gear(number,ratio));
+    }
+
+    public void changeGear(int newGear) {
+        if(newGear>=0 && newGear<this.gears.size()&&this.clutchIsIn) {
+            this.currentGear = newGear;
+            System.out.println("Gear changed from " + this.currentGear + "to newGear");
+        }
+        else {
+            System.out.println("Gear NOT changed");
+            this.currentGear = 0;
+        }
+    }
+
+    public double getWheelSpeed(int revs) {
+        return this.gears.;
+    }
+
+    private class Gear {
         private int gearNumber;
         private double ratio;
 
