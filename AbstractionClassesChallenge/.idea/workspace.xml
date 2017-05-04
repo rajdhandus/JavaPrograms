@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55f54f44-8041-418e-a4d1-036d26237431" name="Default" comment="" />
+    <list default="true" id="0ce885da-9eac-4dbb-b24d-4d0e46135ca7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,94 +16,71 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raj/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parrot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raj/Parrot.java">
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/raj/Item.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Penguin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raj/Penguin.java">
+      <file leaf-file-name="NodeList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/raj/NodeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bird.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raj/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CanFly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raj/CanFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/raj/Animal.java">
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/raj/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raj/Dog.java">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/raj/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="540">
+              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +91,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,13 +104,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/raj/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/raj/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/raj/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/raj/CanFly.java" />
-        <option value="$PROJECT_DIR$/src/com/raj/Parrot.java" />
-        <option value="$PROJECT_DIR$/src/com/raj/Bird.java" />
-        <option value="$PROJECT_DIR$/src/com/raj/Penguin.java" />
+        <option value="$PROJECT_DIR$/src/com/raj/IData.java" />
+        <option value="$PROJECT_DIR$/src/com/raj/StringData.java" />
+        <option value="$PROJECT_DIR$/src/com/raj/Item.java" />
+        <option value="$PROJECT_DIR$/src/com/raj/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/raj/NodeList.java" />
+        <option value="$PROJECT_DIR$/src/com/raj/MyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -165,26 +141,25 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Abstraction" />
+              <option name="myItemId" value="AbstractionClassesChallenge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Abstraction" />
+              <option name="myItemId" value="AbstractionClassesChallenge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Abstraction" />
+              <option name="myItemId" value="AbstractionClassesChallenge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Abstraction" />
+              <option name="myItemId" value="AbstractionClassesChallenge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -198,6 +173,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +204,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Abstraction" />
+      <module name="AbstractionClassesChallenge" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -525,7 +501,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Abstraction" />
+      <module name="AbstractionClassesChallenge" />
       <envs />
       <method />
     </configuration>
@@ -594,28 +570,23 @@
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="55f54f44-8041-418e-a4d1-036d26237431" name="Default" comment="" />
-      <created>1493765107263</created>
+      <changelist id="0ce885da-9eac-4dbb-b24d-4d0e46135ca7" name="Default" comment="" />
+      <created>1493854272768</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1493765107263</updated>
-      <workItem from="1493765113010" duration="2910000" />
+      <updated>1493854272768</updated>
+      <workItem from="1493854278796" duration="4027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2910000" />
+    <option name="totallyTimeSpent" value="4027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1277" height="722" extended-state="6" />
@@ -624,13 +595,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -638,7 +608,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24939272" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -662,89 +632,82 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/raj/Penguin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raj/Parrot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/raj/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raj/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/raj/StringData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raj/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raj/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raj/IData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raj/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raj/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="27" />
           <folding>
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raj/CanFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raj/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raj/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
