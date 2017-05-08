@@ -34,7 +34,7 @@ public class MyLinkedList implements NodeList {
 
                     item.setPrevious(prev);
                     prev.setNext(item);
-                    
+
                     item.setNext(current);
                     current.setPrevious(item);
 
@@ -69,13 +69,31 @@ public class MyLinkedList implements NodeList {
 
     @Override
     public boolean removeItem(Item item) {
+
+        Item current = this.root;
+
+        while(current.next()!=null) {
+            if(current.compareTo(item)==0) {
+                Item prev = current.previous();
+                Item next = current.next();
+                prev.setNext(next);
+                next.setPrevious(prev);
+                System.out.println("Deleted " + item.getData());
+                return true;
+            }
+            else {
+                current = current.next();
+                continue;
+            }
+        }
+
         return false;
     }
 
     @Override
     public void traverse(Item root) {
         Item current = root;
-        while(current.next()!=null) {
+        while(current!=null) {
             System.out.println("Value : " + current.getData());
             current = current.next();
         }
