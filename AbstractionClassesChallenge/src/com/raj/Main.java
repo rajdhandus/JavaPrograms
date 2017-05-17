@@ -5,29 +5,39 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        MyLinkedList myLinkedList = new MyLinkedList(null);
+//        MyLinkedList myLinkedList = new MyLinkedList(null);
+
+        SearchTree myADT = new SearchTree(null);
 
         String input = "1 2 3 7 4 5 6";
 
         String[] ipt = input.split(" ");
 
         for (String item: ipt) {
-            myLinkedList.addItem(new Node(item));
+            myADT.addItem(new Node(item));
         }
 
-        myLinkedList.traverse(myLinkedList.getRoot());
+        System.out.println("Traversing the tree");
 
-        myLinkedList.removeItem(new Node("4"));
+        myADT.traverse(myADT.getRoot());
 
-        myLinkedList.traverse(myLinkedList.getRoot());
+        myADT.removeItem(new Node("4"));
 
-        myLinkedList.removeItem(new Node("3"));
+        System.out.println("Traversing the tree");
 
-        myLinkedList.traverse(myLinkedList.getRoot());
+        myADT.traverse(myADT.getRoot());
 
-        myLinkedList.removeItem(new Node("4"));
+        myADT.removeItem(new Node("3"));
 
-        myLinkedList.traverse(myLinkedList.getRoot());
+        System.out.println("Traversing the tree");
+
+        myADT.traverse(myADT.getRoot());
+
+        myADT.removeItem(new Node("4"));
+
+        System.out.println("Traversing the tree");
+
+        myADT.traverse(myADT.getRoot());
 
     }
 }

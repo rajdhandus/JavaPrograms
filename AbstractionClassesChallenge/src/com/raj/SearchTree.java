@@ -98,10 +98,10 @@ public class SearchTree implements NodeList {
             //      parent
             //      current
             //        (0)
-            if(parent.previous().compareTo(current)==0) {
+            if(current.compareTo(parent.previous())==0) {
                 parent.setPrevious(null);
             }
-            else if(parent.next().compareTo(current)==0) {
+            else if(current.compareTo(parent.next())==0) {
                 parent.setNext(null);
             }
         }
@@ -113,19 +113,19 @@ public class SearchTree implements NodeList {
             //
             //
 
-            if(parent.previous().compareTo(current)==0) {
+            if(current.compareTo(parent.previous())==0) {
                 parent.setPrevious(current.previous());
             }
-            else if(parent.next().compareTo(current)==0) {
+            else if(current.compareTo(parent.next())==0) {
                 parent.setNext(current.previous());
             }
         }
         else if(current.previous()==null){
             //only right child
-            if(parent.previous().compareTo(current)==0) {
+            if(current.compareTo(parent.previous())==0) {
                 parent.setPrevious(current.next());
             }
-            else if(parent.next().compareTo(current)==0) {
+            else if(current.compareTo(parent.next())==0) {
                 parent.setNext(current.next());
             }
         }
