@@ -7,10 +7,10 @@ public class Main {
         SoccerPlayer s1 = new SoccerPlayer("s1");
         FootballPlayer f1 = new FootballPlayer("f1");
 
-        Team csk = new Team("CSK");
+        Team<FootballPlayer> csk = new Team<>("CSK");
 
-        csk.addPlayer(b1);
-        csk.addPlayer(s1);
+//        csk.addPlayer(b1);
+//        csk.addPlayer(s1);
         csk.addPlayer(f1);
 
         System.out.println("CSK has " + csk.numOfPlayers()+ " players");

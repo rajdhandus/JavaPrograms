@@ -2,7 +2,7 @@ package com.raj;
 
 import java.util.ArrayList;
 
-public class Team {
+public class Team<T> {
 
   private String name;
   private int played=0;
@@ -10,7 +10,7 @@ public class Team {
   private int lost=0;
   private int tied=0;
 
-  private ArrayList<Player> members = new ArrayList<>();
+  private ArrayList<T> members = new ArrayList<>();
 
   public Team(String name) {
     this.name = name;
@@ -20,13 +20,13 @@ public class Team {
     return name;
   }
 
-  public boolean addPlayer(Player player) {
+  public boolean addPlayer(T player) {
     if(members.contains(player)) {
       System.out.println("The player is already on the team");
       return false;
     }
     else {
-      System.out.println("New player " + player.getName() + " picked for "
+      System.out.println("New player " + ((Player)player).getName() + " picked for "
       + this.name);
       members.add(player);
       return true;
