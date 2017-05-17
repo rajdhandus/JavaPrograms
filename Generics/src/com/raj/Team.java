@@ -27,10 +27,34 @@ public class Team {
     }
     else {
       System.out.println("New player " + player.getName() + " picked for "
-      + this.name;
+      + this.name);
       members.add(player);
       return true;
     }
   }
+
+  public int numOfPlayers() {
+    return this.members.size();
+  }
+
+  public void matchResult(Team opponent, int ourScore, int theirScore) {
+    if(ourScore>theirScore) {
+      won++;
+    }
+    else if(ourScore<theirScore) {
+      lost++;
+    }
+    else {
+      tied++;
+    }
+    if(opponent!=null) {
+      opponent.matchResult(null, theirScore, ourScore);
+    }
+  }
+
+  public int rankings() {
+    return (this.won * 2) + this.tied;
+  }
+
 
 }
