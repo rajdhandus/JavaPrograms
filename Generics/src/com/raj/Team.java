@@ -2,7 +2,7 @@ package com.raj;
 
 import java.util.ArrayList;
 
-public class Team<T> {
+public class Team<T extends Player> {
 
   private String name;
   private int played=0;
@@ -26,7 +26,7 @@ public class Team<T> {
       return false;
     }
     else {
-      System.out.println("New player " + ((Player)player).getName() + " picked for "
+      System.out.println("New player " + player.getName() + " picked for "
       + this.name);
       members.add(player);
       return true;

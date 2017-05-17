@@ -7,13 +7,14 @@ public class Main {
         SoccerPlayer s1 = new SoccerPlayer("s1");
         FootballPlayer f1 = new FootballPlayer("f1");
 
-        Team<FootballPlayer> csk = new Team<>("CSK");
+        Team<BaseballPlayer> yankees = new Team<>("NY Yankees");
+        yankees.addPlayer(b1);
 
-//        csk.addPlayer(b1);
-//        csk.addPlayer(s1);
-        csk.addPlayer(f1);
+        Team<SoccerPlayer> manU = new Team<>("Manchester United");
+        manU.addPlayer(s1);
 
-        System.out.println("CSK has " + csk.numOfPlayers()+ " players");
-
+//        Team<String> brokenCode = new Team<>("Broken Code");
+//        brokenCode.addPlayer("Some stuff");
+        
     }
 }
