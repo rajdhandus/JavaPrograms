@@ -22,6 +22,10 @@ public class Main {
 
         nePatriots.matchResult(nyJets, 21, 30);
 
+        System.out.println("Rankings");
+        System.out.println(nyJets.getName() + " : "+nyJets.rankings());
+        System.out.println(nePatriots.getName()+" : " +nePatriots.rankings());
+
 //        nePatriots.matchResult(manU,21,30);
 
 //        Team<String> brokenCode = new Team<>("Broken Code");
