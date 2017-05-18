@@ -2,7 +2,7 @@ package com.raj;
 
 import java.util.ArrayList;
 
-public class Team<T extends Player> {
+public class Team<T extends Player> implements Comparable<Team<T>>{
 
   private String name;
   private int played=0;
@@ -62,5 +62,19 @@ public class Team<T extends Player> {
     return (this.won * 2) + this.tied;
   }
 
+  public int compareTo(Team<T> o) {
+
+    // a negative number if our object comes before the one passed in;
+    // a positive number if our object comes after the one passed in;
+    // otherwise, zero (meaning they're equal in terms of ordering).
+    
+    if(this.rankings() > o.rankings()) {
+        return -1;
+    }
+    else if (this.rankings() < o.rankings()){
+        return 1;
+    }
+    return 0;
+  }
 
 }
