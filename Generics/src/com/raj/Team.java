@@ -37,17 +37,23 @@ public class Team<T extends Player> {
     return this.members.size();
   }
 
-  public void matchResult(Team opponent, int ourScore, int theirScore) {
+  public void matchResult(Team<T> opponent, int ourScore, int theirScore) {
+    String message;
+
     if(ourScore>theirScore) {
       won++;
+      message = " won ";
     }
     else if(ourScore<theirScore) {
       lost++;
+      message = " lost ";
     }
     else {
       tied++;
+      message = " tied with ";
     }
     if(opponent!=null) {
+      System.out.println(this.getName() + message + opponent.getName());
       opponent.matchResult(null, theirScore, ourScore);
     }
   }
