@@ -1,6 +1,6 @@
 package com.raj;
 
-public class Team {
+public class Team<T> implements Comparable<Team<T>>{
   private String name;
   private int points;
 
@@ -9,7 +9,8 @@ public class Team {
     this.points = 0;
   }
 
-  public int compareTo(Team otherTeam) {
+  @Override
+  public int compareTo(Team<T> otherTeam) {
     if(this.points>otherTeam.points) {
       return 1;
     }
@@ -20,5 +21,4 @@ public class Team {
       return 0;
     }
   }
-
 }

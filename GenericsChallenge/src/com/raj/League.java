@@ -1,6 +1,7 @@
 package com.raj;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -12,7 +13,7 @@ public class League<T extends Team> {
 
   public League(String name) {
     this.name = name;
-    this.listOfTeams = new ArrayList<T>();
+    this.listOfTeams = new ArrayList<>();
   }
 
   public boolean addTeam(T team) {
@@ -20,7 +21,7 @@ public class League<T extends Team> {
   }
 
   public void printTable() {
-    Collection.sort(listOfTeams);
+    Collections.sort(listOfTeams);
     System.out.println(listOfTeams);
   }
 
