@@ -1,6 +1,6 @@
 package com.raj;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,15 +12,16 @@ public class League<T extends Team> {
 
   public League(String name) {
     this.name = name;
-    this.listOfTeams = new LinkedList<T>();
+    this.listOfTeams = new ArrayList<T>();
   }
 
   public boolean addTeam(T team) {
-      return false;
+    return this.listOfTeams.add(team);
   }
 
   public void printTable() {
-    System.out.println();
+    Collection.sort(listOfTeams);
+    System.out.println(listOfTeams);
   }
 
 }
