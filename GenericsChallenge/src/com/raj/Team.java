@@ -1,6 +1,6 @@
 package com.raj;
 
-public class Team<T> implements Comparable<Team<T>>{
+public class Team<T> implements Comparable<Team<T>> {
   private String name;
   private int points;
 
